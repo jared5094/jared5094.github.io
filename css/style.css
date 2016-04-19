@@ -1,0 +1,68 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+	background-color:#d9d9d9;
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #d9d9d9;
+}
+
+.header {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8em;
+}
+
+.footer p {
+	color: #ff1a1a;
+	font-weight: bold;
+	font-style: italic;
+	margin-left: 3em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*----------------------
+Navbar
+-------------------------*/
+
+#navbar_container {
+	height:4.5em;
+	color: #FFF;
+    background-color: #002B36;
+}
+
+#navbar_container div {
+	display: inline-block;
+}
+
+#navbar li {
+	margin-left: 2em;
+	display: inline-block;
+}
+
+#navbar a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.4em;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.nav_header {
+    margin: 0.75em 2em;
+}

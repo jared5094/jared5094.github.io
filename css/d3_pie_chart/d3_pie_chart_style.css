@@ -1,0 +1,34 @@
+/*----------------------
+Pie A
+-------------------------*/
+
+#pieA {
+	display:inline-block;
+	margin-left: 3em;
+}
+
+#display_pieA {
+	display: inline-block;
+	margin-bottom: 5em;
+	background-color:#f5f5f5;
+}
+
+#pieA_select_menus {
+	margin: 1.5em 0 0 7em;
+}
+
+#pieA_select_menus * {
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#pieA_select_menus p {
+	font-weight: bold;
+	margin: 0.5em 0;
+}
+
+.menu {
+	display: inline-block;
+	margin: 1em;
+}
+
