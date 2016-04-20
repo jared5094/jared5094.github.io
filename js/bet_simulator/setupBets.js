@@ -44,11 +44,11 @@ function printTable(race) {
   raceID.find('.submit_button').attr('id', 'submit_race' + race);
   raceID.find('.reset_button').attr('id', 'reset_race' + race);
   raceID.find( ".results_container" ).find( ".table_header" ).prepend(
-    "<h3>Race " + letters[race] + " Results" + "</h3>");
+    "Race " + letters[race] + " Results");
   //print race title
   raceID = $('#race' + race).find( ".race_table" );
   raceID.find('.table_header').prepend(
-      "<h3>Race " + letters[race] + "</h3>");
+      "Race " + letters[race]);
   //print table rows. In first column, name is printed from 2D array.
   //In second column, options are appended to a dropdown menu.
   //First option is the default ('select').
