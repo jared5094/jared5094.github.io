@@ -23,9 +23,9 @@
 /* Text Format
 -------------------------------------------------- */
 
-#select_race {
+#demo2_description {
   margin: 30px 0 10px 0;
-  width: 100%;
+  width: 30em;
   display: inline-block;
   text-align: center;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -43,7 +43,7 @@
 
 #raceList {
   display: inline-block;
-  margin-left: 9em;
+  margin-left: 6em;
 }
 
 #raceList button {
@@ -61,7 +61,7 @@
   height: 25em;
   margin-left: 3em;
   margin-bottom: 8em;
-  background-color: #f5f5f5;
+  background-color: #d9d9d9;
 }
 
 .race_container {
@@ -74,7 +74,7 @@
 }
 
 .buttons_container {
-  margin-top: 4.05em;
+  margin-top: 3.4em;
 }
 
 .buttons_container button {
@@ -143,7 +143,7 @@ td {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: bold;
   color: #ff1a1a;
-  margin: 1.7em 0 0.8em 3em;
+  margin: 1em 0 0.8em 3em;
 }
 
 .table_button {

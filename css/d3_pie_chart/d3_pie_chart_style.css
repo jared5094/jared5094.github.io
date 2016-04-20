@@ -2,7 +2,16 @@
 Pie A
 -------------------------*/
 
+#demo1_description {
+	margin: 30px auto 10px auto;
+    width: 520px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
 #pieA {
+	width: 590px;
 	display:inline-block;
 	margin-left: 3em;
 }
@@ -14,21 +23,20 @@ Pie A
 }
 
 #pieA_select_menus {
-	margin: 1.5em 0 0 7em;
-}
-
-#pieA_select_menus * {
-	font-size: 1em;
-	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+    width:590px;
+    overflow:hidden;
 }
 
 #pieA_select_menus p {
-	font-weight: bold;
 	margin: 0.5em 0;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 13px;
 }
 
 .menu {
 	display: inline-block;
-	margin: 1em;
+	margin: 0 0 1.5em 1.5em;
 }
 

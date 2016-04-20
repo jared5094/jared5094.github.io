@@ -27,6 +27,7 @@ body {
 	color: #ff1a1a;
 	font-weight: bold;
 	font-style: italic;
+	font-size: 14px;
 	margin-left: 3em;
 }
 
@@ -71,5 +72,7 @@ Navbar
 }
 
 .nav_header {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 22px;
     margin: 0 0 0 2em;
 }
